@@ -16,7 +16,7 @@ console.log(users[1].age);
 console.log(users[0].name);
 
 for(var i = 0; i < users.length; i++){
-    console.log(users[i].name)&' - '&console.log(users[i].age);
+    console.log(users[i].name+' - '+users[i].age);
 };
 
 for(var i = 0; i < users.length; i++){
